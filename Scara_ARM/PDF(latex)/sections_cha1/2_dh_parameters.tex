@@ -1,0 +1,33 @@
+\section{  \LR{DH table}}
+\label{sec:dh_table}
+
+بناءً على التوزيع الهندسي لجمل الإحداثيات الموضحة في القسم السابق، يتم استخراج المعاملات الأربعة الخاصة بخوارزمية (\LR{DH}) لربط كل جملتين متتاليتين ($i-1$) و ($i$). تُعرّف هذه المعاملات الأربعة كما يلي:
+\begin{itemize}
+    \item $a_i$: الإزاحة الخطية على طول المحور $X_i$ من المحور $Z_{i-1}$ إلى المحور $Z_i$.
+    \item $\alpha_i$: الإزاحة الزاوية (الفتل) حول المحور $X_i$ من المحور $Z_{i-1}$ إلى المحور $Z_i$.
+    \item $d_i$: الإزاحة الخطية على طول المحور $Z_{i-1}$ من المحور $X_{i-1}$ إلى المحور $X_i$.
+    \item $\theta_i$: الإزاحة الزاوية حول المحور $Z_{i-1}$ من المحور $X_{i-1}$ إلى المحور $X_i$.
+\end{itemize}
+
+بتطبيق هذه القواعد على البنية الميكانيكية للروبوت المدروس (\LR{SCARA})، تم استنتاج الوسطاء الحركية للمفاصل الثلاثة كما هو موضح في الجدول (\ref{tab:dh_parameters}). 
+
+\begin{table}[H]
+    \centering
+    %\caption{DH table}
+    \label{tab:dh_parameters}
+    \renewcommand{\arraystretch}{1.5}
+    \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+        \textbf{المفصل ($i$)} & \textbf{نوع المفصل} & \textbf{$\theta_i$} & \textbf{$d_i$} & \textbf{$a_i$} & \textbf{$\alpha_i$} \\
+        \hline
+        1 & دوراني (\LR{Revolute}) & $\theta_1$ & $0$ & $L1$ & $0$ \\
+        \hline
+        2 & دوراني (\LR{Revolute}) & $\theta_2$ & $0$ & $L_2$ & $180^\circ$ \\
+        \hline
+        3 & انسحابي (\LR{Prismatic}) & $0$ & $d_3$ & $0$ & $0$ \\
+        \hline
+    \end{tabular}
+  
+ 
+\end{table}
+

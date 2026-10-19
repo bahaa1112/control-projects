@@ -1,0 +1,32 @@
+\xpg@aux {numerals=maghrib}{arabic}
+\contentsline {chapter}{\numberline {1}المقدمة }{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}النمذجة الحركية (\pLRE {Kinematic Modeling})}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}تعيين المحاور الإحداثية (\pLRE {Coordinate Frames Assignment})}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2} \pLRE {DH table}}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}\pLRE {Homogeneous Transformation Matrices}}{3}{section.2.3}%
+\contentsline {section}{\numberline {2.4}معادلات الموضع الديكارتي (\pLRE {Cartesian Position Equations})}{4}{section.2.4}%
+\contentsline {chapter}{\numberline {3}النمذجة الديناميكية (\pLRE {Dynamic Modeling})}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}النهج المعتمد للنمذجة الديناميكية والفرضيات الأساسية}{6}{section.3.1}%
+\contentsline {section}{\numberline {3.2}تحديد الثوابت الميكانيكية ومصفوفات القصور الذاتي للوصلات}{7}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}المعايير الهندسية والكتلية للروبوت}{7}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}متجهات مراكز الثقل (\pLRE {Center of Mass Vectors})}{7}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}مصفوفات القصور الذاتي المتكاملة للوصلات (\pLRE {Pseudo-Inertia Tensors})}{8}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}اشتقاق مصفوفات النموذج الديناميكي }{9}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}عناصر مصفوفة العطالة $(D_{ij})$}{10}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}معاملات قوى كوريوليس والطرد المركزي $(D_{ijk})$}{10}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}عناصر شعاع الجاذبية الأرضية $(D_i)$}{10}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}النمذجة المصفوفية المستنتجة للروبوت}{11}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}دمج المشغلات بالنموذج الديناميكي}{11}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}النموذج الرياضي لمحرك التيار المستمر (\pLRE {DC Motor Model})}{11}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}النموذج الديناميكي الشامل والمدمج (\pLRE {Comprehensive Dynamic Model})}{12}{subsection.3.4.2}%
+\contentsline {chapter}{\numberline {4}تصميم استراتيجيات التحكم (\pLRE {Control Strategies Design})}{14}{chapter.4}%
+\contentsline {section}{\numberline {4.1}متحكم تناسبي-تكاملي-تفاضلي (\pLRE {PID Control})}{14}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}5. استجابة النظام عند قيم مختلفة للحمل ($m_L$)}{15}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}التحكم بالانزلاق (\pLRE {Sliding Mode Control - SMC})}{17}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}5. استجابة النظام عند قيم مختلفة للحمل ($m_L$)}{18}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}التحكم التكيفي المعتمد على العزم المحسوب (\pLRE {Adaptive Computed Torque Control})}{19}{section.4.3}%
+\contentsline {section}{\numberline {4.4}مقارنة استراتيجيات التحكم واختيار الخوارزمية الأمثل}{22}{section.4.4}%
+\contentsline {chapter}{\numberline {5}الخاتمة والتوصيات}{25}{chapter.5}%
+\contentsline {section}{\numberline {5.1}الخاتمة }{25}{section.5.1}%
+\contentsline {section}{\numberline {5.2}التوصيات للعمل المستقبلي }{25}{section.5.2}%
+\contentsline {chapter}{المراجع}{26}{Item.8}%

@@ -1,0 +1,60 @@
+\section{\LR{Homogeneous Transformation Matrices}}
+
+\label{sec:transformation}
+
+تمثل مصفوفة التحويل المتجانس أداة رياضية قوية تدمج بين الدوران (\LR{Rotation}) والانسحاب (\LR{Translation}) في مصفوفة واحدة بأبعاد $4 \times 4$. تُعطى المصفوفة العامة للتحويل المتجانس \LR{$A_i^{i-1}$}، التي تنقل الإحداثيات من الجملة \LR{($i$)} إلى الجملة \LR{($i-1$)} وفق خوارزمية (\LR{DH})، بالعلاقة الرياضية التالية:
+
+\begin{equation}
+A_i^{i-1} = 
+\begin{bmatrix}
+\cos\theta_i & -\sin\theta_i \cos\alpha_i & \sin\theta_i \sin\alpha_i & a_i \cos\theta_i \\
+\sin\theta_i & \cos\theta_i \cos\alpha_i & -\cos\theta_i \sin\alpha_i & a_i \sin\theta_i \\
+0 & \sin\alpha_i & \cos\alpha_i & d_i \\
+0 & 0 & 0 & 1
+\end{bmatrix}
+\label{eq:general_dh}
+\end{equation}
+
+لإيجاد مصفوفات التحويل الخاصة بمفاصل الروبوت المدروس، نقوم بتعويض المعطيات المستخرجة في الجدول (\ref{tab:dh_parameters}) داخل المعادلة العامة (\ref{eq:general_dh}). ولتبسيط الكتابة الرياضية، تم اعتماد الاختصارات المثلثية المعيارية حيث \LR{$c_i = \cos\theta_i$} و \LR{$s_i = \sin\theta_i$}.
+
+\textbf{1. التحويل من الجملة \{1\} إلى الجملة \{0\}:}
+بتعويض بارامترات المفصل الأول، حيث \LR{$d_1 = 0$}، و \LR{$a_1 = L_1$}، و \LR{$\alpha_1 = 0$}، وبما أن \LR{$\cos(0) = 1$} و \LR{$\sin(0) = 0$}، نجد:
+
+\begin{equation}
+A_1^0 = 
+\begin{bmatrix}
+c_1 & -s_1 & 0 & L_1 c_1 \\
+s_1 & c_1 & 0 & L_1 s_1 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1
+\end{bmatrix}
+\label{eq:A10}
+\end{equation}
+
+\textbf{2. التحويل من الجملة \{2\} إلى الجملة \{1\}:}
+بتعويض بارامترات المفصل الثاني، حيث \LR{$d_2 = 0$}، و \LR{$a_2 = L_2$}، و \LR{$\alpha_2 = 180^\circ$}، وبما أن \LR{$\cos(180^\circ) = -1$} و \LR{$\sin(180^\circ) = 0$}، تتغير إشارات بعض العناصر لنحصل على:
+
+\begin{equation}
+A_2^1 = 
+\begin{bmatrix}
+c_2 & s_2 & 0 & L_2 c_2 \\
+s_2 & -c_2 & 0 & L_2 s_2 \\
+0 & 0 & -1 & 0 \\
+0 & 0 & 0 & 1
+\end{bmatrix}
+\label{eq:A21}
+\end{equation}
+
+\textbf{3. التحويل من الجملة \{3\} إلى الجملة \{2\}:}
+بتعويض بارامترات المفصل الانسحابي الثالث، حيث \LR{$\theta_3 = 0$}، و \LR{$a_3 = 0$}، و \LR{$\alpha_3 = 0$}، تنتج لدينا مصفوفة تمثل انسحاباً خطياً نقياً على المحور \LR{$Z$}:
+
+\begin{equation}
+A_3^2 = 
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & d_3 \\
+0 & 0 & 0 & 1
+\end{bmatrix}
+\label{eq:A32}
+\end{equation}

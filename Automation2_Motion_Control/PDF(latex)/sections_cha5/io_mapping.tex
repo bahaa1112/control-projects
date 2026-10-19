@@ -1,0 +1,44 @@
+\section{توزيع المداخل والمخارج \textenglish{(I/O Mapping)}}
+لضمان استقرار المنظومة وتجنب أي تعارض في البنية العتادية \textenglish{(Hardware Conflict)} للمتحكم، تمت دراسة وتوزيع المداخل والمخارج بدقة بناءً على المتطلبات الوظيفية للآلة ودليل الشركة المصنعة لمتحكمات دلتا \textenglish{(Delta DVP)}. يعتمد هذا التوزيع على تخصيص قنوات محددة للتعامل مع الإشارات عالية التردد (مثل نبضات المشفر ومخارج السيرفو)، مع ترك المداخل والمخارج العادية لمهام التحكم والحماية الكلاسيكية.
+
+\subsection{الجدول الشامل للمداخل والمخارج}
+يوضح الجدول التالي التوزيع المعتمد في هذه المنظومة لربط الحساسات والمشغلات مع منافذ المتحكم المنطقي:
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|p{11cm}|}
+\hline
+\rowcolor{gray!20}
+\textbf{العنوان} & \textbf{الوظيفة الميكانيكية والبرمجية} \\
+\hline
+\textbf{X0} & مفتاح بدء التشغيل وتفعيل النظام الميكانيكي \textenglish{(System Start)}. \\
+\hline
+\textbf{X1} & مفتاح الإيقاف العام للمنظومة \textenglish{(System Stop)}. \\
+\hline
+\textbf{X2} & إشارة الحماية من زيادة الحمل \textenglish{(Overload Protection)} لإيقاف النظام عند حدوث أخطاء كهربائية أو ميكانيكية. \\
+\hline
+\textbf{X3} & حساس المنتج الضوئي، ويُبرمج كحافة صاعدة \textenglish{(Rising Edge)} لتصفير العداد لمرة واحدة. \\
+\hline
+\textbf{X4} & قناة الطور الأول للمشفر \textenglish{(Phase A)} - مرتبطة عتادياً بالعداد السريع \textenglish{C254}. \\
+\hline
+\textbf{X5} & قناة الطور الثاني للمشفر \textenglish{(Phase B)} - مرتبطة عتادياً بالعداد السريع \textenglish{C254}. \\
+\hline
+\textbf{X6} & حساس نقطة الصفر \textenglish{(Home Sensor)} لإيقاف عربة المقص وتحديد نقطة الانطلاق. \\
+\hline
+\textbf{X7} & حساس نهاية الشوط الأمامي \textenglish{(Forward Limit Switch)} لعمل كبح طوارئ للمحرك. \\
+\hline
+\textbf{X10} & حساس نهاية الشوط الخلفي \textenglish{(Reverse Limit Switch)} لعمل كبح طوارئ للمحرك. \\
+\hline
+\textbf{Y0} & مخرج النبضات عالي التردد \textenglish{(Pulse Output)} للتحكم في سرعة ومسافة السيرفو. \\
+\hline
+\textbf{Y1} & مخرج تحديد الاتجاه \textenglish{(Direction)} لتمييز التقدم للأمام أو التراجع للخلف. \\
+\hline
+\textbf{Y2} & إشارة تفعيل محرك السيرفو والمحافظة على المغنطة \textenglish{(Servo Enable / SON)}. \\
+\hline
+\textbf{Y4} & مخرج تفعيل أسطوانة القص لإنزال السكين في لحظة التزامن. \\
+\hline
+\end{tabular}
+\caption{\centering{توزيع المداخل والمخارج}}
+\label{tab:io_mapping}
+\end{table}

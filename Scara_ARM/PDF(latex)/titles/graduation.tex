@@ -1,0 +1,58 @@
+\makeatletter
+
+\newcommand*{\gradeType}[1]{\gdef\@gradeType{#1}}
+\newcommand*{\firstExaminer}[1]{\gdef\@firstExaminer{#1}}
+\newcommand*{\secondExaminer}[1]{\gdef\@secondExaminer{#1}}
+\newcommand*{\matrikelnr}[1]{\gdef\@matrikelnr{#1}}
+\newcommand*{\submitDate}[1]{\gdef\@submitDate{#1}}
+
+\renewcommand*{\maketitle}{
+	\begin{titlepage}
+		
+		\newgeometry{left=2.5cm,right=2.5cm,top=2.0cm,bottom=2.5cm}
+
+
+
+		\noindent
+        \begin{minipage}[t]{0.35\textwidth}
+            \centering
+            
+           
+            \includegraphics[width=0.6\linewidth]{resources/images/logo}\\[0.3cm] 
+            
+            
+            \textbf{الجمهورية العربية السورية}\\
+            \textbf{ وزارة الدفاع}\\
+            
+            
+        \end{minipage}\hfill 
+        
+        
+        \vspace{3cm} 
+
+
+
+		\begin{center}
+					
+		
+			{\Large \@title\par}
+			\vskip 0.5cm
+			{\large \bfseries  بحث علمي   \par}
+			\vskip 0.5cm
+			%{\large مقدم لنيل\\ \bfseries \@gradeType}
+			%\vskip 0.5cm
+			%{\large جامعة حلب}
+			%\vskip 0.5cm
+			%{\large  كلية الهندسة الكهربائية و الألكترونية\\ قسم هندسة التحكم الآلي والأتمتة الصناعية}
+			\vfill
+			\begin{minipage}{0.5\textwidth}
+        		\centering
+        		\large
+        		\textbf{اعداد }\\[0.3cm]
+        		{\Large \@author}
+    			\end{minipage}
+		\end{center}
+		\restoregeometry
+	\end{titlepage}
+}
+\makeatother

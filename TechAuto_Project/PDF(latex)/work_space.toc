@@ -1,0 +1,10 @@
+\xpg@aux {numerals=maghrib}{arabic}
+\contentsline {chapter}{\numberline {1}مقدمة}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}توزيع المداخل والمخارج}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}الجدول الشامل للمداخل والمخارج}{2}{section.2.1}%
+\contentsline {chapter}{\numberline {3}التوصيل الفيزيائي }{3}{chapter.3}%
+\contentsline {chapter}{\numberline {4}الحسابات الديناميكية وضبط المعايير}{4}{chapter.4}%
+\contentsline {section}{\numberline {4.1}معايرة المحورين القائد والتابع}{4}{section.4.1}%
+\contentsline {section}{\numberline {4.2}تردد المزامنة والتحليل الهندسي}{4}{section.4.2}%
+\contentsline {chapter}{\numberline {5}بناء الخوارزمية البرمجية}{5}{chapter.5}%
+\contentsline {section}{\numberline {5.1}التحليل الهندسي لبنية الكود}{5}{section.5.1}%

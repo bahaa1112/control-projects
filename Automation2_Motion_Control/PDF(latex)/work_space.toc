@@ -1,0 +1,56 @@
+\xpg@aux {numerals=maghrib}{arabic}
+\contentsline {chapter}{\numberline {1}مقدمة}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}تعريف النظام ومكوناته الأساسية}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}مسار الإشارة والمكونات الفعالة}{1}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}أنظمة الحلقة المفتوحة مقابل الحلقة المغلقة}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}أنظمة الحلقة المفتوحة (\textenglish {Open-Loop Systems})}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}أنظمة الحلقة المغلقة (\textenglish {Closed-Loop Systems})}{3}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}جدول مقارنة شامل}{3}{subsection.1.2.3}%
+\contentsline {chapter}{\numberline {2}البنية الداخلية وطريقة عمل محركات السيرفو}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}التركيب الفيزيائي لمحركات السيرفو}{4}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}العضو الثابت (\textenglish {Stator})}{4}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}العضو الدوار (\textenglish {Rotor})}{4}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}مبدأ توليد العزم الكهرومغناطيسي}{5}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}أنظمة التغذية الراجعة (\textenglish {Feedback Systems})}{5}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}المشفرات (\textenglish {Encoders})}{5}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}المحللات أو الريزولفرات (\textenglish {Resolvers})}{6}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}مقارنة بين محركات السيرفو للتيار المستمر والمتناوب}{6}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}خصائص سيرفو التيار المستمر (\textenglish {DC Servo})}{6}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}خصائص سيرفو التيار المتناوب (\textenglish {AC Servo})}{6}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}مقارنة شاملة}{7}{subsection.2.3.3}%
+\contentsline {chapter}{\numberline {3}استراتيجيات وحلقات التحكم}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}هيكلية حلقات التحكم المتداخلة (\textenglish {Cascaded Control})}{8}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}الحلقة الداخلية: حلقة التيار/العزم (\textenglish {Current/Torque Loop})}{8}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}الحلقة الوسطى: حلقة السرعة (\textenglish {Velocity Loop})}{9}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}الحلقة الخارجية: حلقة الموقع (\textenglish {Position Loop})}{9}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}تحسين الاستجابة باستخدام التوقع المسبق (\textenglish {Feedforward Control})}{9}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}توقع السرعة المسبق (\textenglish {Velocity Feedforward})}{9}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}توقع العزم المسبق (\textenglish {Torque/Acceleration Feedforward})}{10}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {4}التحكم النبضي بمحركات السيرفو وتطبيقه العملي}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}آلية التحكم النبضي (\textenglish {Pulse Train Control})}{11}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}المبدأ الهندسي للتحكم النبضي}{11}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}بروتوكول النبضة والاتجاه (\textenglish {Pulse + Direction})}{11}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}المتطلبات العتادية: لماذا مخارج الترانزستور؟}{12}{subsection.4.1.3}%
+\contentsline {chapter}{\numberline {5}التطبيق العملي: منظومة المقص الطائر (\textenglish {Flying Shear})}{13}{chapter.5}%
+\contentsline {section}{\numberline {5.1}نظرة عامة على المنظومة \textenglish {(Application Overview)}}{13}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}المشكلة الصناعية والحل الهندسي}{13}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}المكونات الأساسية للمنظومة المعمارية}{13}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}دورة عمل المنظومة \textenglish {(Operation Cycle)}}{14}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}توزيع المداخل والمخارج \textenglish {(I/O Mapping)}}{14}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}الجدول الشامل للمداخل والمخارج}{14}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}التوصيل الفيزيائي والكهربائي مع الـ \textenglish {PLC}}{15}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}توصيل المشفر القائد (\textenglish {Master Encoder})}{15}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}توصيل مشغل السيرفو (\textenglish {Servo Drive})}{15}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}توصيل مفاتيح الحماية}{16}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}الحسابات الديناميكية وضبط المعايير \textenglish {(Kinematics \& Parameterization)}}{16}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}حسابات المحور القائد \textenglish {(Master Axis - Encoder)}}{17}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}حسابات المحور التابع \textenglish {(Slave Axis - Servo Motor)}}{17}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}سرعة التزامن والتردد المطلوب}{17}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}التحليل الهندسي لترددات التشغيل \textenglish {(Operating Frequencies Analysis)}}{18}{subsection.5.4.4}%
+\contentsline {section}{\numberline {5.5}بناء الخوارزمية البرمجية \textenglish {(Ladder Logic Implementation)}}{19}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}التحليل الهندسي لبنية الكود}{19}{subsection.5.5.1}%
+\contentsline {subsubsection}{1. العداد السريع والتصفير الذاتي \textenglish {(High-Speed Counter \& Self-Reset)}}{19}{subsubsection*.9}%
+\contentsline {subsubsection}{2. اتخاذ قرار القص \textenglish {(Cutting Decision)}}{19}{subsubsection*.10}%
+\contentsline {subsubsection}{3. توليد النبضات والتزامن \textenglish {(Pulse Output \& Synchronization)}}{19}{subsubsection*.11}%
+\contentsline {subsubsection}{4. شبكات الحماية الميكانيكية \textenglish {(Protection Networks)}}{19}{subsubsection*.12}%
+\contentsline {chapter}{\numberline {6}الخاتمة}{21}{chapter.6}%
